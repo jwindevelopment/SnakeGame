@@ -1,0 +1,22 @@
+{
+  "name": "SnakeGame",
+  "version": "1.0.0",
+  "description": "The classic snake game done with the HTML Canvas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jwindevelopment/SnakeGame"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Jonathan Wingate jwindevelopment@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jwindevelopment/SnakeGame/issues"
+  },
+  "homepage": "https://github.com/jwindevelopment/SnakeGame"
+}
