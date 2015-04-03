@@ -1,6 +1,7 @@
 body {
   color: #368199;
-  text-align: center; }
+  text-align: center;
+  font-family: "Bitstream Vera Sans Mono", "Consolas", "Courier", monospace; }
 
 .container {
   text-align: center;
