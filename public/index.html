@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Classic Snake Game</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="stylesheets/application.css" />
+    </head>
+<body>
+    <h1>Classic Snake Game!</h1>
+    <div class="container">
+        <div class="game-settings">
+            <h2>Game size:</h2>
+            <label class="block"><input id="game-small" type="radio" name="gameSize" value="small" checked>Little</label>
+            <label class="block"><input id="game-medium" type="radio" name="gameSize" value="medium">Big</label>
+            <label class="block"><input id="game-large" type="radio" name="gameSize" value="large">Huge</label>
+            <h2>Game modes:</h2>
+            <label class="block"><input id="mode-easy" type="radio" align="right" name="mode" value="easy" checked>Easy</label>
+            <label class="block"><input id="mode-hard" type="radio" align="right" name="mode" value="normal">Hard</label>
+            <label class="block"><input id="mode-insane" type="radio" align="right" name="mode" value="hard">Insane!</label>
+            <label class="block"><input id="mode-impossible" type="radio" align="right" name="mode" value="impossible">Impossible (Arrow keys are reversed)</label>
+        </div>
+        <div class="gameboard">
+            <canvas width="500" height="500" id="canvas"></canvas>
+        </div>
+        <div class="scoreboard">
+            <h2>Score: <span id="score" class="score">0</span></h2>
+        </div>
+    </div>
+    <script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>

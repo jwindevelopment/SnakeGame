@@ -1,0 +1,33 @@
+@import "lib/bourbon/bourbon";
+
+$text-color: #368199;
+
+body {
+  color: $text-color;
+  text-align: center;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+.game-settings {
+    float: left;
+    text-align: left;
+    width: 25%;
+}
+
+.gameboard {
+    width: 50%;
+    float: left;
+}
+
+.scoreboard {
+    width: 25%;
+    float: left;
+}
+
+.block {
+    display: block;
+}
